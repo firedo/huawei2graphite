@@ -1,8 +1,11 @@
 huawei2graphite
 =========
 
+
 ## Description:
 _Huawei Signal Data to Graphite - Get 4G (& 5G) signal data from Huawei LTE/5G modems (using Huawei's API) and sent it to Graphite for visualization of statistics_
+
+![Grafana screenshot](/../screenshots/screenshots/grafana-screenshot01.png?raw=true "Grafana screenshot")
 
 In daemon/loop mode it will run until stopped manually and generates (and sends) data every X seconds to Graphite (default destination: localhost on TCP port 2003).
 
